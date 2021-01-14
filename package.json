@@ -1,0 +1,21 @@
+{
+  "name": "twbs-css-tagged-literals",
+  "version": "1.0.0",
+  "description": "Bootstrap v3.4.5 css tagged template literals",
+  "main": "index.js",
+  "module": "index.js",
+  "type": "module",
+  "author": "Nikolas Christou",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "serve": "web-dev-server --app-index index.html --node-resolve",
+    "serve:watch": "web-dev-server --app-index index.html --node-resolve --watch"
+  },
+  "dependencies": {
+    "lit-element": "^2.4.0",
+    "twbs-css-string-literals": "^1.0.2"
+  }
+}
