@@ -7,12 +7,13 @@
   "type": "module",
   "author": "Nikolas Christou",
   "license": "MIT",
+  "homepage": "https://github.com/nik-christou/twbs-css-tagged-literals",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nik-christou/twbs-css-tagged-literals"
+  },
   "publishConfig": {
     "access": "public"
-  },
-  "scripts": {
-    "serve": "web-dev-server --app-index index.html --node-resolve",
-    "serve:watch": "web-dev-server --app-index index.html --node-resolve --watch"
   },
   "dependencies": {
     "lit-element": "^2.4.0",
